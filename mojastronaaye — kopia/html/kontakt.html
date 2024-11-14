@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Kontakt</title>
+	<script src="../js/timedate.js" type="text/javascript"></script>
+</head>
+<body onload="startclock()">
+
+<video autoplay muted loop class="background-video">
+    <source src="../galeria/aye3d2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<div class="container">
+<header>
+    <h1>Kontakt</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Strona Główna</a></li>
+        <li><a href="informacje.html">Informacje</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="uslugi.html">Usługi</a></li>
+        <li><a href="kontakt.html" class="active">Kontakt</a></li>
+		<li><a href="poligon.html">Poligon</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h2>Skontaktuj się ze mną</h2>
+    <form action="mailto:ayeffice@gmail.com?subject=Formularz%20Kontaktowy" method="post" enctype="text/plain">
+        <label for="name">Imię:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Wiadomość:</label><br>
+        <textarea id="message" name="message" required></textarea><br><br>
+
+        <input type="submit" value="Wyślij">
+    </form>
+</div>
+
+<div id="zegarek"></div>
+<div id="data"></div>
+
+<footer>
+    <p>&copy; 2024 AYE</p>
+</footer>
+
+</div>
+
+</body>
+</html>
