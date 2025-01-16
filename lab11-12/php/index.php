@@ -110,11 +110,7 @@ $strona_content = PokazPodstrone($page_id);
 
         <!-- Sekcja stopki -->
         <footer>
-            <?php
-            $nr_indeksu = '169247';
-            $nrGrupy = '2';
-            echo 'Autor: Wiktor Jakacki   ' . $nr_indeksu . '   grupa: ' . $nrGrupy . '<br /><br />'; 
-            ?>
+		<img src="../jpg/aye.png" alt="Aye Image" style="width: 100px; height: auto;">
         </footer>
 
     </div>
